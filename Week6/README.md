@@ -78,6 +78,11 @@ TensorFlow/Keras Datasets
 ---
 
 ## Results
+### Training Performance
+
+The training and validation loss decreased consistently throughout training, indicating that the CNN Autoencoder successfully learned to reconstruct clean images from noisy inputs without significant overfitting.
+
+![Training Loss](outputs/training_loss.png)
 
 The CNN Autoencoder successfully learns to reconstruct noisy MNIST images.
 
